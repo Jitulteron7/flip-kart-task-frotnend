@@ -1,0 +1,109 @@
+.searchBox{
+    display: flex;
+    border-bottom:2px solid rgb(157, 157, 157)
+}
+.searchBrand{
+    border-bottom:0;
+    outline:none;
+}
+.searchBoxFocus{  
+    display: flex;  
+    border-bottom:2px solid rgb(80, 176, 255)
+}
+.para{
+    color:blue;
+    font-size: 2rem;
+}
+
+.sortSectionTitle{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 5px;
+}
+.sortSectionTitle h3 {
+    /* margin:0 15px; */
+    font-size:1rem;
+    font-weight: 700;
+}
+
+.sortSectionTitle p {
+    margin:0 10px;
+    font-size:.7rem;
+    color:rgb(169, 169, 169);
+}
+
+.sortSectionOptions{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin:0 5px;
+}
+
+
+.sortSectionOptions span{    
+    /* margin:10px; */
+    padding: 8px 10px 4px 0;
+    font-size:.9rem;
+    font-weight:600;
+}
+
+
+.sortSectionOptions div{    
+    padding: 8px 0 4px;
+    margin: 0 10px;
+    font-size:.8rem;
+   
+    
+}
+
+.sortSectionOptions div:hover{    
+    padding: 8px 0 4px;
+    margin: 0 10px;
+    font-size:.8rem;
+   cursor: pointer;
+    
+}
+
+.sortSectionOptions .sortIt{    
+    padding: 8px 0 4px;
+    margin: 0 10px;
+    font-size:.8rem; 
+    border-bottom: 2.5px solid rgb(0, 133, 249);        
+}
+.brand{
+    font-size:.8rem;
+    color:rgb(128, 128, 128);
+        
+}
+/*
+                    "_id": "62fa35900dab4e389cb211e3",
+                    "desc": "MJ Hub PUBG_GAMING_SLEEVE, Touchscreen, Anti-Sweat, Two...",
+                    "img": "https://rukminim1.flixcart.com/image/612/612/kqb8pzk0/gaming-accessory-kit/gaming-finger-gloves/w/b/z/pubg-gaming-sleeve-touchscreen-anti-sweat-two-finger-gloves-original-imag4df2eafcdmsm.jpeg?q=70",
+                    "feature": "MJ",
+                    "brand": "Black, For Android, iOS",
+                    "rating": 4,
+                    "review": 356,
+                    "price": 60,
+                    "originalPrice": 399,
+                    "offer": 84,
+                    "assured": "",
+                    "offerType": "Bank Offer",
+                    "createdAt": "2022-08-15T12:01:21.014Z",
+                    "updatedAt": "2022-08-15T12:01:21.014Z",
+                    "__v": 0
+*/
+
+/*
+if (filter.sortBy === 'popularity') {
+            aggregates.push({ $sort: { review: -1, rating: -1 } });
+        } else if (filter.sortBy === 'priceLH') {
+            aggregates.push({ $sort: { price: 1 } });
+        } else if (filter.sortBy === 'priceHL') {
+            aggregates.push({ $sort: { price: -1 } });
+        } else if (filter.sortBy === 'newest') {
+            aggregates.push({ $sort: { createdAt: 1, review: 1, rating: 1 } });
+        } else if (filter.sortBy === 'relevance') {
+            aggregates.push({ $sort: { review: -1, rating: -1 } });
+        }
+*/
